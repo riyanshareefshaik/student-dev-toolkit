@@ -201,3 +201,78 @@ Use fenced code blocks with a language:
 ```js
 console.log("Hello, world!");
 ```
+
+For terminal commands:
+
+```bash
+git status
+```
+Code Guidelines
+
+Code should:
+
+Run without errors
+Use meaningful variable names
+Follow basic formatting standards
+Include sample output where helpful
+Avoid unnecessary dependencies
+Explain uncommon concepts
+
+Example:
+
+const numbers = [1, 2, 3, 4];
+
+const doubledNumbers = numbers.map((number) => number * 2);
+
+console.log(doubledNumbers);
+Commit Message Format
+
+Use this pattern:
+
+type: short description
+
+Common types:
+
+feat: for a new feature or example
+fix: for a correction
+docs: for documentation
+refactor: for code restructuring
+test: for tests
+chore: for maintenance
+
+Examples:
+
+feat: add JavaScript fetch API example
+fix: correct Python file path handling
+docs: add Git branching guide
+refactor: simplify array method examples
+Pull Request Checklist
+
+Before submitting, confirm:
+
+ My code runs correctly.
+ My explanation is beginner-friendly.
+ I checked spelling and formatting.
+ I used a clear file name.
+ I used a descriptive commit message.
+ I did not copy copyrighted material.
+ My contribution fits the purpose of the repository.
+Questions and Suggestions
+
+Open an issue if you:
+
+Find an error
+Want to suggest a topic
+Need clarification
+Want to propose a major change
+
+Thank you for helping improve the Student Developer Toolkit.
+
+
+After saving both files, run:
+
+```bash
+git add README.md CONTRIBUTING.md
+git commit -m "docs: improve README and contribution guide"
+git push
+```
