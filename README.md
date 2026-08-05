@@ -162,4 +162,4 @@ You can also open an issue to report an error or suggest a new topic.
 
 ## License
 
-This project is available under [The Unlicense](LICENSE).
+This project is available under [MIT](LICENSE).
